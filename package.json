@@ -1,0 +1,23 @@
+{
+  "name": "@malond/ui-phone",
+  "version": "1.0.0",
+  "description": "Format phone numbers",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vs-sokol/ui-phone.git"
+  },
+  "keywords": [
+    "phone",
+    "ui"
+  ],
+  "author": "Vladimir Sokolovskiy <boss@malond.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/vs-sokol/ui-phone/issues"
+  },
+  "homepage": "https://github.com/vs-sokol/ui-phone#readme"
+}
