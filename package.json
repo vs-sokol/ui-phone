@@ -1,6 +1,6 @@
 {
   "name": "@malond/ui-phone",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Format phone numbers",
   "main": "index.js",
   "scripts": {
@@ -19,5 +19,11 @@
   "bugs": {
     "url": "https://github.com/vs-sokol/ui-phone/issues"
   },
-  "homepage": "https://github.com/vs-sokol/ui-phone#readme"
+  "homepage": "https://github.com/vs-sokol/ui-phone#readme",
+  "dependencies": {
+    "classnames": "^2.2.6",
+    "prop-types": "^15.6.2",
+    "react": "^16.7.0",
+    "uuid": "^3.3.2"
+  }
 }
