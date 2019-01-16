@@ -1,6 +1,6 @@
 {
   "name": "@malond/ui-phone",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Format phone numbers",
   "main": "index.js",
   "scripts": {
