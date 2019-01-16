@@ -14,7 +14,9 @@ function TelPhones({ children, className }) {
 
     telFormattedObject.telArray.forEach((telItem, i) => {
       if (i !== 0) {
-        telItemsArray.push(<br key={`tel-br-${uuidV4()}`} />);
+        telItemsArray.push(
+          React.createElement("br", { key: `tel-br-${uuidV4()}` })
+        );
       }
 
       let classNamesPhone = classNames(
@@ -26,9 +28,14 @@ function TelPhones({ children, className }) {
       );
 
       telItemsArray.push(
-        <span key={`tel-phone-${uuidV4()}`} className={classNamesPhone}>
-          {telItem.tel}
-        </span>
+        React.createElement(
+          "span",
+          {
+            key: `tel-phone-${uuidV4()}`,
+            className: classNamesPhone
+          },
+          telItem.tel
+        )
       );
     });
 
@@ -43,7 +50,14 @@ function TelPhones({ children, className }) {
       className || ""
     );
 
-    return <span className={classNamesPhone}>{telFormattedObject.tel}</span>;
+    return React.createElement(
+      "span",
+      {
+        key: `tel-phone-${uuidV4()}`,
+        className: classNamesPhone
+      },
+      telFormattedObject.tel
+    );
   }
 }
 

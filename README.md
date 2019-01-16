@@ -72,3 +72,18 @@ console.log("Wrong numbers:", getTelFormatted(wrongNumbers));
 //   tel: '',
 //   color: '' }
 ```
+
+## React компонент
+
+### Пример
+
+```javascript
+// ...
+import { TelPhones } from "@malond/ui-phone";
+// ...
+
+// ...
+// tel = "71234567890"
+<TelPhones className="size-small">{tel}</TelPhones>;
+// ...
+```
